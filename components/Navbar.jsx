@@ -6,7 +6,10 @@ import mypic from "../public/picture/mypic.jpg";
 
 export function Navbar() {
   return (
-    <div>
+    <div
+      style={{ maxWidth: "600px", textDecoration: "none" }}
+      className="mx-auto"
+    >
       <br />
       <div class="d-flex justify-content-center gap-5 fw-bold my-4 ">
         <Link href="/">
